@@ -1,6 +1,5 @@
 # NeoVim Configuration
-personal NeoVim configuration in lua.
-
+personal NeoVim configuration written in lua.
 
 - fugitive
 - harpoon
@@ -8,3 +7,12 @@ personal NeoVim configuration in lua.
 - telescope
 - treesitter
 - undotree
+
+## Setup
+### 1. Clone packer
+Clone [Packer Repo](https://github.com/wbthomason/packer.nvim) in nvim config directory
+
+### 2. Install packages
+Navigate to packer.lua and run:
+  - `:so`
+  - `:PackerSync`
